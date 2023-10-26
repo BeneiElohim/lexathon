@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "percentage": 85,
+      "imageUrl": "",
+      "isTescilli": true
+    },
+    {
+      "id": 2,
+      "percentage": 70,
+      "imageUrl": "",
+      "isTescilli": false
+    },
+    {
+      "id": 3,
+      "percentage": 90,
+      "imageUrl": "",
+      "isTescilli": true
+    },
+    {
+      "id": 4,
+      "percentage": 60,
+      "imageUrl": "",
+      "isTescilli": false
+    },
+    {
+      "id": 5,
+      "percentage": 75,
+      "imageUrl": "",
+      "isTescilli": true
+    },
+    {
+      "id": 6,
+      "percentage": 50,
+      "imageUrl": "",
+      "isTescilli": false
+    },
+    {
+      "id": 7,
+      "percentage": 95,
+      "imageUrl": "",
+      "isTescilli": true
+    },
+    {
+      "id": 8,
+      "percentage": 65,
+      "imageUrl": "",
+      "isTescilli": false
+    }
+  ]
+}

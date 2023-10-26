@@ -26,7 +26,7 @@ const ImageUploadSection = () => {
       </div>
 
       <div className="text-center">
-        <Link href="./ResimYukleme/Sonuc">
+        <Link href="./ResimYukleme/Arama">
           <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-5 border border-gray-300 rounded-lg">
             Taramayı Başlat
           </button>
