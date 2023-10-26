@@ -1,19 +1,24 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   return (
     <header className="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-indigo-600">
       <div className="flex items-center">
-        <img className="w-32 h-auto mr-2" src="/logo.png" alt="Logo" />
+        <Link href="/">
+          <img className="w-32 h-auto mr-2" src="/logo.png" alt="Logo" />
+        </Link>
         <div>
           <p className="text-lg font-semibold text-gray-900">StyLegally</p>
           <p className="text-sm font-medium text-gray-600">Özgün ve Yasal</p>
         </div>
       </div>
       <div className="flex">
-        <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-          Button 1
-        </button>
+        <Link href="/LacernoArama">
+          <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+            Tescil Taraması
+          </button>
+        </Link>
         <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2">
           Button 2
         </button>
