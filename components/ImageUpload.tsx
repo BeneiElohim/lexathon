@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const ImageUploadSection = () => {
   const [showModal, setShowModal] = useState(false);
@@ -25,9 +26,11 @@ const ImageUploadSection = () => {
       </div>
 
       <div className="text-center">
-        <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-5 border border-gray-300 rounded-lg">
-          Taramayı Başlat
-        </button>
+        <Link href="./ResimYukleme/Sonuc">
+          <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-5 border border-gray-300 rounded-lg">
+            Taramayı Başlat
+          </button>
+        </Link>
       </div>
 
       {showModal && (
