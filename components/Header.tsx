@@ -20,7 +20,7 @@ const Header = () => {
           </button>
         </Link>
         <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2">
-          Button 2
+          Tescilini Yükle
         </button>
       </div>
       <div className="flex items-center">
