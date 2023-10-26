@@ -16,7 +16,7 @@ const ItemComponent: React.FC<ItemComponentProps> = ({
   falsePositive,
 }) => {
   return (
-    <div className="border p-4 w-48 h-96 my-5">
+    <div className="border p-4 w-48 h-96 my-5 mx-5">
       <p className="mb-4 text-center font-bold">
         Eşleşme {percentage}% , Hata Olasılığı {falsePositive}%
       </p>
