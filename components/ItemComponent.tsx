@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 interface ItemComponentProps {
   percentage: Item['percentage'];
+  falsePositive: Item['falsePositive'];
   imageUrl: Item['imageUrl'];
   isTescilli: Item['isTescilli'];
 }
@@ -12,10 +13,13 @@ const ItemComponent: React.FC<ItemComponentProps> = ({
   percentage,
   imageUrl,
   isTescilli,
+  falsePositive,
 }) => {
   return (
     <div className="border p-4 w-48 h-96 my-5">
-      <p className="mb-4 text-center font-bold">{percentage}%</p>
+      <p className="mb-4 text-center font-bold">
+        Eşleşme {percentage}% , Hata Olasılığı {falsePositive}%
+      </p>
       <Link href="/LacernoArama/ResimYukleme/Arama/Sonuc">
         {/* Using the imageURL */}
         {imageUrl ? (

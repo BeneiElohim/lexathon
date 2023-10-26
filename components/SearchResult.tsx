@@ -19,6 +19,7 @@ const ResultsPage: React.FC<ResultsPageProps> = ({ items }) => {
             key={item.id}
             percentage={item.percentage}
             imageUrl={item.imageUrl}
+            falsePositive={item.falsePositive}
             isTescilli={item.isTescilli}
           />
         ))}

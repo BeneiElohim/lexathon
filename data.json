@@ -4,49 +4,57 @@
       "id": 1,
       "percentage": 85,
       "imageUrl": "",
-      "isTescilli": true
+      "isTescilli": true,
+      "falsePositive": 12
     },
     {
       "id": 2,
       "percentage": 70,
       "imageUrl": "",
-      "isTescilli": false
+      "isTescilli": false,
+      "falsePositive": 16
     },
     {
       "id": 3,
       "percentage": 90,
       "imageUrl": "",
-      "isTescilli": true
+      "isTescilli": true,
+      "falsePositive": 7
     },
     {
       "id": 4,
       "percentage": 60,
       "imageUrl": "",
-      "isTescilli": false
+      "isTescilli": false,
+      "falsePositive": 9
     },
     {
       "id": 5,
       "percentage": 75,
       "imageUrl": "",
-      "isTescilli": true
+      "isTescilli": true,
+      "falsePositive": 15
     },
     {
       "id": 6,
       "percentage": 50,
       "imageUrl": "",
-      "isTescilli": false
+      "isTescilli": false,
+      "falsePositive": 8
     },
     {
       "id": 7,
       "percentage": 95,
       "imageUrl": "",
-      "isTescilli": true
+      "isTescilli": true,
+      "falsePositive": 11
     },
     {
       "id": 8,
       "percentage": 65,
       "imageUrl": "",
-      "isTescilli": false
+      "isTescilli": false,
+      "falsePositive": 5
     }
   ]
 }
