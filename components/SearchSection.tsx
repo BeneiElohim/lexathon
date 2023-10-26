@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const SearchSection = () => {
   return (
     <div className="bg-gray-50 p-8 max-w-md mx-auto rounded-lg">
@@ -18,11 +18,11 @@ const SearchSection = () => {
         <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-5 border border-gray-300 rounded-lg">
           Adım 2
         </button>
-        <a
-          href="https://www.turkpatent.gov.tr/tasarim-locarno-siniflandirmasi"
-          className="my-5">
-          Locarno sınıfını bilmiyor musunuz?
-        </a>
+        <Link href="https://www.turkpatent.gov.tr/tasarim-locarno-siniflandirmasi">
+          <a target="_blank" rel="noopener noreferrer" className="my-5">
+            Locarno sınıfını bilmiyor musunuz?
+          </a>
+        </Link>
       </div>
     </div>
   );
