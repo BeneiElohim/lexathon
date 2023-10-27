@@ -16,9 +16,9 @@ const ItemComponent: React.FC<ItemComponentProps> = ({
   falsePositive,
 }) => {
   return (
-    <div className="border p-4 w-48 h-96 my-5 mx-5">
-      <p className="mb-4 text-center font-bold">
-        Eşleşme {percentage}% , Hata Olasılığı {falsePositive}%
+    <div className="border p-4 w-48 h-96 my-5 mx-5 bg-primary">
+      <p className="mb-4 text-center  text-quaternary  bg-tertiary rounded">
+        Eşleşme {percentage}% <br /> Hata Olasılığı {falsePositive}%
       </p>
       <Link href="/LacernoArama/ResimYukleme/Arama/Sonuc">
         {/* Using the imageURL */}

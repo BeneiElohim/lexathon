@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-indigo-600">
+    <header className="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-r-1 border-l-1 border-quinary">
       <div className="flex items-center">
         <Link href="/">
           <img className="w-32 h-auto mr-2" src="/logo.png" alt="Logo" />
@@ -15,16 +15,16 @@ const Header = () => {
       </div>
       <div className="flex">
         <Link href="/LacernoArama">
-          <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          <button className="bg-secondary hover:bg-tertiary text-gray-800 hover:text-quaternary font-semibold py-2 px-4 border border-gray-400 rounded shadow">
             Tescil Taraması
           </button>
         </Link>
-        <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2">
+        <button className="bg-secondary hover:bg-tertiary text-gray-800 hover:text-quaternary font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2">
           Tescilini Yükle
         </button>
       </div>
       <div className="flex items-center">
-        <button className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 border border-red-600 rounded shadow">
+        <button className="bg-quinary hover:bg-white text-white hover:text-black font-semibold py-2 px-4 border  rounded shadow-md">
           Çıkış Yap
         </button>
         <div className="h-8 w-8 bg-gray-400 rounded-full ml-4"></div>

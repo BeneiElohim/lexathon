@@ -9,7 +9,7 @@ const ImageUploadSection = () => {
   };
 
   return (
-    <div className="bg-gray-50 p-8 max-w-xl mx-auto rounded-lg">
+    <div className="bg-primary p-8 max-w-xl my-60 mx-auto  rounded-lg">
       <h1 className="text-xl font-medium mb-6 text-center">
         TASARIM GÖRSELİ YÜKLE
       </h1>
@@ -27,7 +27,7 @@ const ImageUploadSection = () => {
 
       <div className="text-center">
         <Link href="./ResimYukleme/Arama">
-          <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-5 border border-gray-300 rounded-lg">
+          <button className="bg-secondary hover:bg-tertiary hover:text-quaternary text-gray-700 font-medium py-2 px-5 border border-gray-300 rounded-lg">
             Taramayı Başlat
           </button>
         </Link>

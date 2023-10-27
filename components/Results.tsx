@@ -2,10 +2,9 @@ import React from 'react';
 
 const Results = () => {
   return (
-    <div className="bg-gray-50 p-8 max-w-4xl mx-auto rounded-lg mt-8">
+    <div className="bg-primary p-8 max-w-4xl mx-auto rounded-lg mt-8">
       <h1 className="text-xl font-medium mb-6 text-center">
-        XYZ Markasının/Tasarımcısının Tasarımı Tescilli ya da Tescilsiz olduğu
-        yazılacak
+        XYZ Markası Tescilli/Tescilsiz
       </h1>
 
       <div className="flex">
@@ -24,7 +23,7 @@ const Results = () => {
         {/* Details Section */}
         <div>
           <div className="mb-4">
-            <label className="block text-gray-600 mb-2">Tescil no:</label>
+            <label className="block text-gray-600 mb-2">Tescil No:</label>
             <input
               type="text"
               className="border rounded w-full py-2 px-3"
@@ -34,9 +33,7 @@ const Results = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-gray-600 mb-2">
-              Tescilli ise tescil tarihi:
-            </label>
+            <label className="block text-gray-600 mb-2">Tescil tarihi:</label>
             <input
               type="text"
               className="border rounded w-full py-2 px-3"
@@ -46,7 +43,7 @@ const Results = () => {
 
           <div className="mb-4">
             <label className="block text-gray-600 mb-2">
-              Tescilsiz ise piyasaya sürülme tarihi:
+              Piyasaya sürülme tarihi:
             </label>
             <input
               type="text"
